@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE client
+[
+<!ELEMENT client (commande) >
+<!ELEMENT commande (date,ligneCommande+) >
+<!ELEMENT date (#PCDATA) >
+<!ELEMENT ligneCommande (produit ,quantité) >
+<!ELEMENT produit (#PCDATA) >
+<!ELEMENT quantité (#PCDATA) >
+]>
